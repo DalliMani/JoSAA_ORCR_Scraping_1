@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3743362-4344-430e-9283-1e7007f0053f" name="Changes" comment="First Commit">
+    <list default="true" id="a3743362-4344-430e-9283-1e7007f0053f" name="Changes" comment="Changes to use the Pandas' HTML read function which is damn OP. Filesaving conventions to be improved.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -75,11 +75,20 @@
       <option name="project" value="LOCAL" />
       <updated>1748754049383</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes to use the Pandas' HTML read function which is damn OP. Filesaving conventions to be improved.">
+      <option name="closed" value="true" />
+      <created>1748754987078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748754987078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Changes to use the Pandas' HTML read function which is damn OP. Filesaving conventions to be improved." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to use the Pandas' HTML read function which is damn OP. Filesaving conventions to be improved." />
   </component>
 </project>

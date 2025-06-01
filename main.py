@@ -25,16 +25,22 @@ def main():
     mainframe['Closing Rank'] = pd.to_numeric(mainframe['Closing Rank'], downcast='integer', errors='coerce')
 
     #Keeping the filesaving convention to fixed for now (lazy)
-    mainframe.to_excel('./JoSAA_Data_0.xlsx')
-    print('Printed Frame as Excel!')
+    filename = 'JoSAA_Data_0'
+    should_save_as = {
+        'Excel': True
+        'CSV': False
+        'Dataframe as pickle': True
+    }
 
-    save_to_pickle = True
-    if save_to_pickle:
-        mainframe.to_pickle('./JoSAA_Dat_0.dat')
+    if should_save_as['Excel']:
+        mainframe.to_excel(f'./{filename}.xlsx')
+        print('Printed Frame as Excel!')
+    if should_save_as['Dataframe as pickle']:
+        mainframe.to_pickle(f'./{filename}.dat')
         print('Printed Frame as Pickle!')
-
-    mainframe.to_csv('./JoSAA_Data_0.csv')
-    print('Printed Frame as CSV!')
+    if should_save_as['CSV']:
+        mainframe.to_csv(f'./{filename}.csv')
+        print('Printed Frame as CSV!')
 
 if __name__=="__main__":
     main()
