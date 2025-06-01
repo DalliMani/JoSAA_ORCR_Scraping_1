@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3743362-4344-430e-9283-1e7007f0053f" name="Changes" comment="Changes to use the Pandas' HTML read function which is damn OP. Filesaving conventions to be improved.">
+    <list default="true" id="a3743362-4344-430e-9283-1e7007f0053f" name="Changes" comment="A little bit of filesaving optimisation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -39,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
@@ -83,12 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748754987078</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="A little bit of filesaving optimisation">
+      <option name="closed" value="true" />
+      <created>1748755154092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748755154092</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Changes to use the Pandas' HTML read function which is damn OP. Filesaving conventions to be improved." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to use the Pandas' HTML read function which is damn OP. Filesaving conventions to be improved." />
+    <MESSAGE value="A little bit of filesaving optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="A little bit of filesaving optimisation" />
   </component>
 </project>
